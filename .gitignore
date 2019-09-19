@@ -1,9 +1,10 @@
+!.gitkeep
+
 target
 build
 bin
 *.class
 *.jar
-
 
 ### STS ###
 .apt_generated
