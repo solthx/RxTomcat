@@ -52,6 +52,8 @@
   └── work
 ```
 
+运行 bin 目录对应的启动脚本，然后在浏览器访问 http://localhost:10393/test
+
 ## 核心模块介绍
 
 RxTomcat 主要对 NIO 模型、HTTP 协议解析、Digester 工具、Servlet 容器以及集群这些核心模块进行实现。
