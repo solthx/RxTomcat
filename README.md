@@ -19,7 +19,7 @@
   mvn clean install
 ```
 
-最终打包版本会生成在 `rxtomcat-bootstrap/target/dist/` 目录中，打包时会执行 test 和 生成 javadoc，如要跳过可使用以下命令：
+最终打包版本会生成在 `rxtomcat-bootstrap/target/dist/` 目录中，如要在打包时跳过执行 test 和 生成 javadoc，可使用以下命令：
 
 ```
   mvn clean install -Dmaven.test.skip=true -Dmaven.javadoc.skip=true
@@ -52,7 +52,7 @@
   └── work
 ```
 
-运行 bin 目录对应的启动脚本，在浏览器访问 http://localhost:10393/test 即可。
+运行 bin 目录对应的启动脚本，然后在浏览器访问 http://localhost:10393/test
 
 ## 核心模块介绍
 
