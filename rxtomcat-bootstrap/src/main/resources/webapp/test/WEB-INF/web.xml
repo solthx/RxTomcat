@@ -3,7 +3,7 @@
   <display-name>test</display-name>
   <servlet>
     <servlet-name>HelloServlet</servlet-name>
-    <servlet-class>net.tonwu.HelloServlet</servlet-class>
+    <servlet-class>com.dunwoo.HelloServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>HelloServlet</servlet-name>
@@ -11,7 +11,7 @@
   </servlet-mapping>
   <filter>
     <filter-name>TestFilter</filter-name>
-    <filter-class>net.tonwu.TestFilter</filter-class>
+    <filter-class>com.dunwoo.TestFilter</filter-class>
   </filter>
   <filter-mapping>
     <filter-name>TestFilter</filter-name>
@@ -19,7 +19,7 @@
   </filter-mapping>
   <servlet>
     <servlet-name>FileUploadServlet</servlet-name>
-    <servlet-class>net.tonwu.FileUploadServlet</servlet-class>
+    <servlet-class>com.dunwoo.FileUploadServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>FileUploadServlet</servlet-name>
@@ -27,7 +27,7 @@
   </servlet-mapping>
   <servlet>
     <servlet-name>SessionServlet</servlet-name>
-    <servlet-class>net.tonwu.SessionServlet</servlet-class>
+    <servlet-class>com.dunwoo.SessionServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>SessionServlet</servlet-name>
@@ -35,7 +35,7 @@
   </servlet-mapping>
   <filter>
     <filter-name>LoginFilter</filter-name>
-    <filter-class>net.tonwu.LoginFilter</filter-class>
+    <filter-class>com.dunwoo.LoginFilter</filter-class>
   </filter>
   <filter-mapping>
     <filter-name>LoginFilter</filter-name>
@@ -44,7 +44,7 @@
   
   <servlet>
     <servlet-name>LoginServlet</servlet-name>
-    <servlet-class>net.tonwu.LoginServlet</servlet-class>
+    <servlet-class>com.dunwoo.LoginServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>LoginServlet</servlet-name>

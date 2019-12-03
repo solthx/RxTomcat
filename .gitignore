@@ -1,8 +1,9 @@
+!.gitkeep
 target
 build
-bin
 *.class
 *.jar
+!webapp/*
 
 
 ### STS ###
