@@ -1,10 +1,5 @@
 !.gitkeep
-target
-build
-*.class
-*.jar
-!webapp/*
-
+/target/
 
 ### STS ###
 .apt_generated
