@@ -1,10 +1,5 @@
 !.gitkeep
-
-target
-build
-bin
-*.class
-*.jar
+/target/
 
 ### STS ###
 .apt_generated
